@@ -1,0 +1,70 @@
+.footer {
+    background-color: black;
+    /* background-image: url("https://wallpaper.forfun.com/fetch/d5/d5ff84ca1a76c61ca452c11839bf0c98.jpeg?w=1470&r=0.5625"); */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 14px;
+    color: #f1e9e9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0px;
+}
+
+.footer-bottom {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+    flex-direction: row;
+    }
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 0;
+    padding: 0 10px;
+    }
+
+.footer-bottom {
+    margin-top: 10px;
+    }
+}

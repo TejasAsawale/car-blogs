@@ -1,0 +1,95 @@
+.Features {
+    text-align: center;
+    padding: 2rem;
+    background-image: url("https://wallpaper.forfun.com/fetch/06/0632b599d44c75297c6dde6143dabe8a.jpeg");
+}
+
+.Features-header {
+    margin-bottom: 2rem;
+}
+
+.Features-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.Features-header p {
+    font-size: 1.2rem;
+    color: White;
+}
+
+.Features-content {
+    margin-top: 2rem;
+}
+
+.Features-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Features-content p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.Features-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px  black;
+    /* background-color: rgb(71, 70, 70); */
+    opacity: 0.9;
+}
+
+.Features-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Features-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Features-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.Features-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.Features-button:hover {
+    background: #555;
+}
+
+.Features-card-details {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.Features-card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}

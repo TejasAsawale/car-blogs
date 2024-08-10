@@ -1,0 +1,114 @@
+.Home {
+    background-image: url("https://wallpaper.forfun.com/fetch/ab/abf128a998e1d2a04dc7d67a9f8069c7.jpeg?w=800&r=0.5625");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.Home-header {
+    background-color: rgb(30, 28, 28);
+    text-align: center;
+    margin: 20px;
+    border: none;
+    color: rgb(255, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.Home-content h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.Home-cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.Home-card {
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; 
+    height: auto; 
+    transition: transform 0.3s ease;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.Home-card:hover {
+    transform: scale(1.02);
+}
+
+.Home-card h3 {
+    font-size: 1.4rem;
+    margin: 1rem;
+    color: white;
+}
+
+.Home-card p {
+    font-size: 1rem;
+    margin: 0 1rem;
+    flex-grow: 1;
+    color: white;
+}
+
+.Home-button {
+    margin: 5px;
+    padding: 0.5rem;
+    background-color: #478aee;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.Home-button:hover {
+    background-color: #948f8f;
+}
+
+.Home-card-details {
+    padding: 1rem;
+    display: block;
+}
+
+.Home-card-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.Home-edit-form {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.Home-edit-form input,
+.Home-edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.Home-edit-form button {
+    margin-top: 10px;
+}
+
